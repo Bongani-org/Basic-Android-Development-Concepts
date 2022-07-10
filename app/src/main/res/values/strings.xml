@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demonstration Of Basic Android Development Concepts</string>
+    <string name="map_key" translatable="false">Enter Google API Key</string>
+    <string-array name="Activities">
+        <item>Please select an Activity to visit!</item>
+        <item>Home Activity</item>
+        <item>Plants House Plan Activity</item>
+        <item>Plants Animation Activity</item>
+        <item>Google Maps Activity</item>
+        <item>Data Manipulation Maps Activity</item>
+    </string-array>
+</resources>

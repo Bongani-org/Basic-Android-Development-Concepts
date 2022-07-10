@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GreenGoogleMapsActivity">
+
+    <!--    Mabizela LB-->
+    <!--    2016074458-->
+    <!--    CSIP 6853 main exam Project-->
+    <!--    14/06/2022-->
+    <!--    CSIP6853 -->
+    <TextView
+        android:id="@+id/txtGreenGoogleMapsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Green Google Maps Activity Page"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#00BF00"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageViewHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintTop_toBottomOf="@id/txtGreenGoogleMapsActivity"
+        android:src="@drawable/divider"/>
+
+    <ImageView
+        android:id="@+id/imageViewCircles"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/circles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewHorizontal" />
+
+    <ImageView
+        android:id="@+id/imageViewCirclesTwo"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:src="@drawable/circles"
+        android:layout_marginRight="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewHorizontal" />
+
+    <ImageView
+        android:id="@+id/imageViewHorizontalTwo"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewCircles"
+        android:src="@drawable/divider"/>
+
+    <Button
+        android:id="@+id/btnBotanicalGardens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botanical Gardens - Bloemfontein"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewHorizontalTwo"
+        />
+
+    <Button
+        android:id="@+id/btnDrawUFSEastCentre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw UFS East Centre"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btnBotanicalGardens"
+        />
+
+    <Button
+        android:id="@+id/btnDataManipulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Manipulation"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btnDrawUFSEastCentre"/>
+
+    <fragment
+        android:id="@+id/googleMap"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        app:layout_constraintTop_toBottomOf="@id/btnDataManipulation"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
