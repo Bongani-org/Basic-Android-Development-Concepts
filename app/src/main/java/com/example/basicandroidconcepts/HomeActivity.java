@@ -21,7 +21,7 @@ import com.karumi.dexter.listener.single.PermissionListener;
 public class HomeActivity extends AppCompatActivity {
 
     //reference to the UI elements
-    private Button btnPlantsHousePlan, btnMapFunctionality, btnPlantsAnimation, btnGreenCharacters;
+    private Button btnPlantsHousePlan, btnMapFunctionality, btnPlantsAnimation, btnGreenCharacters, btnCamera, btnVideo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,8 @@ public class HomeActivity extends AppCompatActivity {
         btnMapFunctionality = findViewById(R.id.btnMapFunctionality);
         btnPlantsAnimation = findViewById(R.id.btnPlantsAnimation);
         btnGreenCharacters = findViewById(R.id.btnGreenHeroes);
+        btnCamera = findViewById(R.id.btnCamera);
+        btnVideo = findViewById(R.id.btnVideo);
 
         //Navigate to PlantsHousePlan activity when the button is clicked
         btnPlantsHousePlan.setOnClickListener(new View.OnClickListener() {
@@ -86,6 +88,24 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, GreenHeroesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //Navigate to Camera activity when the button is clicked
+        btnCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, CameraActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //Navigate to Video activity when the button is clicked
+        btnVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, VideoActivity.class);
                 startActivity(intent);
             }
         });

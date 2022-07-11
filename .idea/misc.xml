@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/drawable/animation.xml" value="0.2985" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_green_heroes.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_camera.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_green_heroes.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_home.xml" value="0.16353887399463807" />
         <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_plants_house_plan.xml" value="0.3625" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/single_item.xml" value="0.28448275862068967" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/activity_video.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/BasicAndroidConcepts/app/src/main/res/layout/single_item.xml" value="0.20195439739413681" />
       </map>
     </option>
   </component>
