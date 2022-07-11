@@ -3,6 +3,10 @@ Demonstration of how to implement basic concepts in android environment
 
 ![DemoAndroid](https://user-images.githubusercontent.com/84180477/178242109-6095cd82-b236-4ff0-9fd3-574c9e667565.png)
 
+![RecylerView](https://user-images.githubusercontent.com/84180477/178275706-464cce59-29be-484d-83e4-890014ab90bb.png)
+
+![Arrow](https://user-images.githubusercontent.com/84180477/178275762-cfc96550-4680-4179-bfa9-99bd67311f2c.png)
+
 ![Screenshot_20220711_113221](https://user-images.githubusercontent.com/84180477/178243278-4f39129d-0b46-46f8-96fb-db936ed6c74a.png)
 
 ![Screenshot_20220711_120247](https://user-images.githubusercontent.com/84180477/178243454-6dae8fb3-5530-49b1-adca-04d7fa5750f9.png)
