@@ -1,11 +1,19 @@
 # Basic-Android-Development-Concepts
 Demonstration of how to implement basic concepts in android environment
 
-![DemoAndroid](https://user-images.githubusercontent.com/84180477/178242109-6095cd82-b236-4ff0-9fd3-574c9e667565.png)
+![HomeAct](https://user-images.githubusercontent.com/84180477/178292567-61e464f0-d1e9-4229-b27d-c99e877397a9.png)
 
 ![RecylerView](https://user-images.githubusercontent.com/84180477/178275706-464cce59-29be-484d-83e4-890014ab90bb.png)
 
 ![Arrow](https://user-images.githubusercontent.com/84180477/178275762-cfc96550-4680-4179-bfa9-99bd67311f2c.png)
+
+![Camera](https://user-images.githubusercontent.com/84180477/178282976-c24f87db-86a1-42bc-9a98-fb47f3d7fa4f.png)
+
+![CamShot](https://user-images.githubusercontent.com/84180477/178283046-25fd2c83-f022-4583-bbcc-16bdfd9974ee.png)
+
+![CamCam](https://user-images.githubusercontent.com/84180477/178283131-ae374884-9b11-49ac-ad63-c76fdbf19014.png)
+
+![Gallery](https://user-images.githubusercontent.com/84180477/178283258-89f38561-b58f-495f-9085-4a0a85fedd19.png)
 
 ![Screenshot_20220711_113221](https://user-images.githubusercontent.com/84180477/178243278-4f39129d-0b46-46f8-96fb-db936ed6c74a.png)
 
@@ -28,3 +36,6 @@ Demonstration of how to implement basic concepts in android environment
 ![Screenshot_20220711_120843](https://user-images.githubusercontent.com/84180477/178243718-669f894c-3b9f-491b-b931-498362a425a1.png)
 
 ![Screenshot_20220711_120908](https://user-images.githubusercontent.com/84180477/178243738-c74e8083-f8de-409c-aa48-e2cd0a2cc858.png)
+
+![Video](https://user-images.githubusercontent.com/84180477/178292047-5db89f48-f972-413b-8731-58241a0ce9d6.png)
+
